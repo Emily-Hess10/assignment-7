@@ -11,11 +11,11 @@ function Header({ onSearch }) {
   }
 
   return (
-    <header>
-      <h1>MovieShelf</h1>
+    <header className="header">
       <nav>
         <Link to="/">Home</Link>
         <Link to="/favorites">Favorites</Link>
+        <Link to="/watchlist">Watchlist</Link>
       </nav>
 
       <input
@@ -29,3 +29,4 @@ function Header({ onSearch }) {
 }
 
 export default Header;
+ 
